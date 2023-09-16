@@ -1,0 +1,93 @@
+{
+    "id": "CVE-2023-12345",
+    "description": "A sample CVE description",
+    "cVSS3xScore": {
+        "id": "1",
+        "baseScore": {
+            "id": "1",
+            "score": "7.8",
+            "severity": "High",
+            "attackVector": "Network",
+            "attackComplexity": "Low",
+            "privilegesRequired": "Low",
+            "userInteraction": "None",
+            "scope": "Changed",
+            "confidentiality": "High",
+            "integrity": "High",
+            "availability": "High",
+            "confidentialityRequirement": "Low",
+            "availabilityRequirement": "Medium",
+            "integrityRequirement": "Low"
+        },
+        "temporalScore": {
+            "id": "1",
+            "score": "7.2",
+            "severity": "High",
+            "exploitCodeMaturity": "Exploits Known",
+            "remediationLevel": "Official Fix",
+            "reportConfidence": "Confirmed"
+        },
+        "vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+        "impactScore": "7.8",
+        "source": "Sample Source",
+        "environmentalScore": {
+            "id": "1",
+            "score": "6.5",
+            "severity": "Medium",
+            "attackVector": "Local",
+            "attackComplexity": "High",
+            "privilegesRequired": "High",
+            "userInteraction": "None",
+            "scope": "Unchanged",
+            "confidentiality": "Low",
+            "integrity": "Low",
+            "availability": "Medium",
+            "confidentialityRequirement": "Low",
+            "availabilityRequirement": "Medium",
+            "integrityRequirement": "Low"
+        }
+    },
+    "cVSS20Score": {
+        "id": "1",
+        "vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:H/I:H/A:H",
+        "impactScore": "7.0",
+        "source": "Sample Source",
+        "EnvironmentalScore": {
+            "id": "1",
+            "score": "5.5",
+            "severity": "Medium",
+            "attackVector": "Network",
+            "attackComplexity": "Low",
+            "privilegesRequired": "Low",
+            "userInteraction": "None",
+            "scope": "Changed",
+            "confidentiality": "High",
+            "integrity": "High",
+            "availability": "High",
+            "confidentialityRequirement": "Low",
+            "availabilityRequirement": "Medium",
+            "integrityRequirement": "Low"
+        },
+        "TemporalScore": {
+            "id": "1",
+            "score": "6.5",
+            "severity": "Medium",
+            "exploitCodeMaturity": "Exploits Known",
+            "remediationLevel": "Official Fix",
+            "reportConfidence": "Confirmed"
+        },
+        "baseScore": {
+            "id": "1",
+            "score": "7.5",
+            "severity": "Medium",
+            "attackVector": "Network",
+            "authentication": "None",
+            "accessComplexity": "Low",
+            "confidentiality": "High",
+            "integrity": "High",
+            "availability": "High"
+        }
+    },
+    "cveID": "CVE-2023-12345",
+    "creationDate": "2023-09-09"
+}
